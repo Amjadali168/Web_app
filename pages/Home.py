@@ -44,7 +44,7 @@ of data""")
 st.subheader("Movies and TV Shows",divider='rainbow')
 st.image("/Users/bafel/Downloads/marvel.jpg")
 st.header("Netflix Data-Visualization",divider='rainbow')
-# st.sidebar.success("Select page above.")
+st.sidebar.success("Select page above.")
 #Visualization: Count of different types of content (movies, TV shows) in each country using a bar chart.
 st.subheader('Types of Content(Movie & TV Show)in each country',divider='blue')
 fig = px.bar(df, 
