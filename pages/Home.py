@@ -11,8 +11,6 @@ from mpl_toolkits.mplot3d import Axes3D  # Import 3D plotting tools
 # Set page config
 st.set_page_config(
     page_title="Netflix-EDA App",
-    # df = st.file_uploader("Upload a Dataset", type=["csv", "txt"]),
-    # df = pd.read_csv('netflix_titles_2021.csv'),
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -88,14 +86,6 @@ bar_chart = px.bar(df_grouped,
 
 # --- DISPLAY BAR CHART
 st.plotly_chart(bar_chart)
-
-
-# #Visualization: Count of different types of content (movies, TV shows) in each country using a bar chart.
-# st.subheader('Types of Content(Movie & TV Show)in each country',divider='blue')
-# fig = px.bar(df, 
-#                    x='type',
-#                    y='country')
-# st.plotly_chart(fig,use_container_width=True)
 
 #Visualization: Time series line plot to show the trend of content added over the years.
 st.subheader('Time series line plot of content over years',divider='grey')
