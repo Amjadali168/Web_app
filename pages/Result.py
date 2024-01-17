@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import random
 import plotly.express as px
 
-# Assuming df is your DataFrame
 st.set_page_config(
     page_title="Netflix-EDA App",
     page_icon="🧊",
