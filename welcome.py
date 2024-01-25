@@ -25,8 +25,10 @@ Welcome to the Netflix Data Analysis App! This app allows you to explore and ana
 **Here are some quick insights:**
 - Total Number of Titles: 8709
 - Number of data present in the dataframe: 148053
-- Total Number of Columns: 17
+- Total Number of Columns: 12
 - Total Number of Rows: 8709
+- Types of content on Netflix: Movies and TV Shows
+         
 """)
 st.write("""
 **How to use this app:**

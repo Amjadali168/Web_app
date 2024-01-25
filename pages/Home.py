@@ -99,7 +99,8 @@ ax = sns.lineplot(
              hue='release_year',
             )
 c1.pyplot(fig2)
-c2.image('https://www.whats-on-netflix.com/wp-content/uploads/2022/10/whats-coming-to-netflix-in-november-2022.jpg')
+# c2.image('https://www.whats-on-netflix.com/wp-content/uploads/2022/10/whats-coming-to-netflix-in-november-2022.jpg')
+c2.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNnvhmyGCZl0XhaksQM0eE2P_CyuX4uPBTZQ&usqp=CAU')
 plt.show()
 
 # Add a Streamlit subheader
